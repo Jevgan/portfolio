@@ -1,6 +1,26 @@
-import projectsData from "@/assets/projects.data";
 import { ExternalLink } from "lucide-react";
 import { FadeProvider } from "../fade-provider/FadeProvider";
+import Kasma from "@/assets/kasma.png";
+import Todo from "@/assets/todo.png";
+
+const projectsData = [
+  {
+    id: 1,
+    title: "Modern cosmetic blog",
+    desc: "Сучасний косметичний блог.",
+    tech: "JS, CSS, HTML",
+    href: "https://github.com/Jevgan/Kasma",
+    img: Kasma,
+  },
+  {
+    id: 2,
+    title: "Task Manager App",
+    desc: "Додаток для управління завданнями",
+    tech: "React, Tailwind, Node.js, Express",
+    href: "https://github.com/Jevgan/Expressive-To-Do",
+    img: Todo,
+  },
+];
 
 export const Projects = () => {
   return (
