@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Modern cosmetic blog",
+    "desc": "Сучасний косметичний блог.",
+    "tech": "JS, CSS, HTML",
+    "href": "https://github.com/Jevgan/Kasma",
+    "img": "src/assets/kasma.png"
+  },
+  {
+    "id": 2,
+    "title": "Task Manager App",
+    "desc": "Додаток для управління завданнями",
+    "tech": "React, Tailwind, Node.js, Express",
+    "href": "https://github.com/Jevgan/Expressive-To-Do",
+    "img": "src/assets/todo.png"
+  }
+]
